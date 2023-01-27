@@ -8,7 +8,8 @@ import "intl/locale-data/jsonp/pt-BR";
 
 import { ThemeProvider } from "styled-components/native";
 import theme from "./src/styles/theme";
-import { StatusBar } from "expo-status-bar";
+import { StatusBar as StatusBarExpo } from "expo-status-bar";
+import { Platform, StatusBar } from "react-native";
 
 const App: React.FC = () => {
     const [isFontLoaded] = useFonts({
@@ -25,7 +26,8 @@ const App: React.FC = () => {
     return (
         <ThemeProvider theme={theme}>
             <NavigationContainer>
-                <StatusBar style="auto" translucent={false} />
+                {/* <StatusBarExpo style="auto" translucent={false} /> */}
+                <StatusBar translucent backgroundColor="transparent" />
                 <Routes />
             </NavigationContainer>
         </ThemeProvider>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "280932088500",
+    "project_id": "rn-wallet-fb",
+    "storage_bucket": "rn-wallet-fb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:280932088500:android:a16edd7eee76ad0004b5e1",
+        "android_client_info": {
+          "package_name": "com.financeiro"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "280932088500-emgqpafcj1g8fge17ut42cuqif9jf6m7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAcoFgwqBhmb0y-EcQ1SCvXkWS3LLtx0UI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "280932088500-emgqpafcj1g8fge17ut42cuqif9jf6m7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

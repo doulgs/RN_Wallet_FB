@@ -24,7 +24,7 @@ const Header: React.FC<HeaderProps> = ({ badges }) => {
         <Container>
             <Content>
                 <Text weight="800" size={27} color={COLORS.WHITE}>
-                    Alim
+                    Great
                     <Text weight="500" size={25} color={COLORS.PRIMARY}>
                         Bank
                     </Text>

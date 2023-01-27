@@ -1,10 +1,18 @@
 import styled from "styled-components/native";
+import { Platform, StatusBar } from "react-native";
+
+const StatusBarHeight = StatusBar.currentHeight;
 
 export const Container = styled.View`
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    margin: 16px 16px 32px 16px;
+    margin-top: ${Platform.OS === "ios"
+        ? StatusBarHeight + 22
+        : StatusBarHeight + 12}px;
+    margin-bottom: 32px;
+    margin-left: 32px;
+    margin-right: 32px;
 `;
 export const Content = styled.View``;
 export const ContentActions = styled.View`
